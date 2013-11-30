@@ -1,0 +1,47 @@
+// Place all the styles related to the homepage controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+#stoichacks {
+  margin-top: 62px;
+  margin-left: 170px;
+  padding-bottom: 50px;
+  background: url(/assets/morebuttonsprite2.png);
+  background-position: 0px -54px;
+  background-size:100px 100px;
+  background-repeat: no-repeat;
+}
+
+#stoichacks:hover {
+  background-position: 0px 5px;
+}
+
+#devblog {
+  margin-top: 62px;
+  margin-left: 170px;
+  padding-bottom: 50px;
+  background: url(/assets/morebuttonsprite2.png);
+  background-position: 0px -54px;
+  background-size:100px 100px;
+  background-repeat: no-repeat;
+}
+
+#devblog:hover {
+  background-position: 0px 5px;
+}
+
+#cv {
+  margin-top: 62px;
+  margin-left: 170px;
+  padding-bottom: 50px;
+  background: url(/assets/morebuttonsprite2.png);
+  background-position: 0px -54px;
+  background-size:100px 100px;
+  background-repeat: no-repeat;
+}
+
+#cv:hover {
+  background-position: 0px 5px;
+}

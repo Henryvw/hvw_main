@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title Henry van Wagenberg
+    = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    = javascript_include_tag "application", "data-turbolinks-track" => true
+    = csrf_meta_tags
+    %link{:href => "/favicon3000.ico", :rel => "icon", :type => "image/ico"}/
+  %body
+    = yield
+
+
+
