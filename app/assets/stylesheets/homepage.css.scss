@@ -3,45 +3,51 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
-#stoichacks {
-  margin-top: 62px;
-  margin-left: 170px;
-  padding-bottom: 50px;
-  background: url(/assets/morebuttonsprite2.png);
-  background-position: 0px -54px;
-  background-size:100px 100px;
-  background-repeat: no-repeat;
+#title{
+	margin-left: 160px;
 }
 
-#stoichacks:hover {
-  background-position: 0px 5px;
+#stoic_sprite{
+	background: url(/assets/stoic_sprite.png) no-repeat;
+	background-position: 160px -138px ;
+	width: 230px;
+	height: 220px;
+	padding-right: 180px;
+}
+#stoic_sprite:hover{
+	background-position: -247px -138px ;
+	width: 230px;
+	height: 220px;
+
 }
 
-#devblog {
-  margin-top: 62px;
-  margin-left: 170px;
-  padding-bottom: 50px;
-  background: url(/assets/morebuttonsprite2.png);
-  background-position: 0px -54px;
-  background-size:100px 100px;
-  background-repeat: no-repeat;
+#devblog_sprite{
+	background: url(/assets/devblog_sprite.png) no-repeat;
+	background-position: 161px -140px ;
+	width: 200px;
+	height: 224px;
+	padding-right: 200px;
 }
 
-#devblog:hover {
-  background-position: 0px 5px;
+#devblog_sprite:hover{
+	background-position: -260px -140px ;
+	width: 200px;
+	height: 224px;
 }
 
-#cv {
-  margin-top: 62px;
-  margin-left: 170px;
-  padding-bottom: 50px;
-  background: url(/assets/morebuttonsprite2.png);
-  background-position: 0px -54px;
-  background-size:100px 100px;
-  background-repeat: no-repeat;
+#lebenslauf_sprite {
+	background: url(/assets/lebenslauf_sprite.png) no-repeat;
+	background-position: 180px -146px ;
+	width: 140px;
+	height: 184px;
+	padding-right: 240px;
 }
 
-#cv:hover {
-  background-position: 0px 5px;
+#lebenslauf_sprite:hover {
+	background-position: -280px -146px ;
+	width: 140px;
+	height: 184px;
 }
+
+
+
