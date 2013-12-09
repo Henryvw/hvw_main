@@ -1,0 +1,138 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+img {
+	max-width:500px;
+}
+
+body, html{
+    background-color:#EAE9E1;
+    width:700px;
+    height: cover;
+    margin: auto;
+    font-family: Ubuntu, sans-serif;
+}
+
+a:link {color:#286981 !important; text-decoration: none;}      
+a:visited {color:#3891B1 !important;}
+a:hover {color:#12120A !important;}
+a:active {color:#3691B1 !important;}
+
+
+a:link {background-color:#FFFFFF !important;}
+a:visited {background-color:#FFFFFF !important;}
+a:hover {background-color:#FFFFFF !important;}
+a:active {background-color:#FFFFFF !important;}
+#title_image {
+  margin-left: 205px;
+  margin-right: auto; }
+
+#stoic_sprite {
+  background: url(/assets/stoic_sprite.png) no-repeat;
+  background-position: 80px -138px;
+  width: 230px;
+  height: 220px;
+  padding-right: 180px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#stoic_sprite:hover {
+  background-position: -327px -138px;
+  width: 230px;
+  height: 220px; }
+
+#devblog_sprite {
+  background: url(/assets/devblog_sprite.png) no-repeat;
+  background-position: 75px -140px;
+  width: 200px;
+  height: 224px;
+  padding-right: 200px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#devblog_sprite:hover {
+  background-position: -346px -140px;
+  width: 200px;
+  height: 224px; }
+
+#lebenslauf_sprite {
+  background: url(/assets/lebenslauf_sprite.png) no-repeat;
+  background-position: 104px -146px;
+  width: 140px;
+  height: 184px;
+  padding-right: 240px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#lebenslauf_sprite:hover {
+  background-position: -385px -149px;
+  width: 140px;
+  height: 184px; }
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px; }
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px; }
+
+a {
+  color: #000; }
+  a:visited {
+    color: #666; }
+  a:hover {
+    color: #fff;
+    background-color: #000; }
+
+div.field, div.actions {
+  margin-bottom: 10px; }
+
+#notice {
+  color: green; }
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table; }
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0; }
+  #error_explanation h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff; }
+  #error_explanation ul li {
+    font-size: 12px;
+    list-style: square; }
