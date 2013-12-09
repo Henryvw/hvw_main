@@ -11,3 +11,27 @@
  *= require_self
  *= require_tree .
  */
+
+
+img {
+	max-width:500px;
+}
+
+body, html{
+    background-color:#EAE9E1;
+    width:700px;
+    height: cover;
+    margin: auto;
+    font-family: Ubuntu, sans-serif;
+}
+
+a:link {color:#286981 !important; text-decoration: none;}      
+a:visited {color:#3891B1 !important;}
+a:hover {color:#12120A !important;}
+a:active {color:#3691B1 !important;}
+
+
+a:link {background-color:#FFFFFF !important;}
+a:visited {background-color:#FFFFFF !important;}
+a:hover {background-color:#FFFFFF !important;}
+a:active {background-color:#FFFFFF !important;}
