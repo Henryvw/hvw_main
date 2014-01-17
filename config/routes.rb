@@ -2,6 +2,9 @@ HvwMain::Application.routes.draw do
   get "homepage/index"
   resources :users
 
+
+get 'homepage/pdf' => 'homepage#pdf', :as => :pdf
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
