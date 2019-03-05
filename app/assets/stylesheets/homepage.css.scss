@@ -9,6 +9,22 @@
 	margin-right: auto;
 }
 
+#penknife_sprite{
+	background: url(/assets/penknife_sprite.png) no-repeat;
+	background-position: 80px -138px ;
+	width: 230px;
+	height: 220px;
+	padding-right: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#penknife_sprite:hover{
+	background-position: -327px -138px ;
+	width: 230px;
+	height: 220px;
+
+}
+
 #stoic_sprite{
 	background: url(/assets/stoic_sprite.png) no-repeat;
 	background-position: 80px -138px ;
